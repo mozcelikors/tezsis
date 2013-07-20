@@ -1,0 +1,1 @@
+<?php header("Location: teacher_displaypage.php"); ?>

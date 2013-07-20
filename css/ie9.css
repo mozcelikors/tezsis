@@ -1,0 +1,36 @@
+/************************
+ * TezSis: TezYonetimSistemi
+ *
+ * @brief Akademisyenler ve ögrenciler arasindaki arayüzü saglayarak tez islemlerini yürütmeyi saglayan PHP tabanli bir web sistemidir.
+ * @version 1.1
+ * @author Mustafa Özçelikörs <mozcelikors>
+ * @contact mozcelikors@gmail.com
+ * @website thewebblog.net
+ ******/
+
+#container {
+	padding-top:0;
+}
+#container_col_right{
+	clear:right;
+}
+.NewsFeed .NFleft{
+	margin-right:0;
+}
+#profileLayer {
+	position:absolute;
+}
+#myProfileInfo{
+	width:120px;
+	margin-top:-5px;
+}
+#searchArea {
+	margin-top:30px;
+	margin-bottom:30px;
+	float:left;
+	/*nav_inner'daki margin-right da bu element ilgili*/
+}
+.buttonStyleSubmit {
+	border:none;
+	cursor:pointer;
+}
