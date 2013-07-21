@@ -149,7 +149,7 @@ function SAFE_GET($theVar){
 <meta name="copyright"  content="Copyright © 2013 Mustafa Ozcelikors" />
 <meta name="abstract" content="TezSis Tez Yonetim Sistemi" />
 <link rel="stylesheet" href="index_files/style.css" type="text/css" media="screen" charset="utf-8">
-<title>Bitirme Ogü</title>
+<title><?php include("info/info.inc"); ?></title>
 <style type="text/css">
 <!--
 

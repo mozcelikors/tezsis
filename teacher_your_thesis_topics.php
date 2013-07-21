@@ -188,7 +188,7 @@ if((($toggleGet==1) || ($toggleGet==2)) && ($totalRows_toggle==1) ){
 <meta name="copyright"  content="Copyright © 2013 Mustafa Ozcelikors" />
 <meta name="abstract" content="TezSis Tez Yonetim Sistemi" />
 
-<title>Bitirme Ogü</title>
+<title><?php include("info/info.inc"); ?></title>
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <?php if(eregi("Chrome",$_SERVER['HTTP_USER_AGENT'])){ ?>
 <link href="css/chrome.css" type="text/css" rel="stylesheet" />
@@ -236,6 +236,7 @@ if((($toggleGet==1) || ($toggleGet==2)) && ($totalRows_toggle==1) ){
 
 <div id="nav">
 	<div id="logo">
+	<img src="images/logo.png" width="203" height="85" />
 	</div>
 	<div id="nav_inner">
     <a href="#">TEZ İŞLEMLERİ <span class="style2">▼</span>   </a> <a href="<?php echo $logoutAction ?>">GÜVENLİ ÇIKIŞ  </a></div>
